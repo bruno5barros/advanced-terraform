@@ -31,7 +31,7 @@ variable "vcs_identifier" {
 variable "enable_services" {
   description = ""
   type = list
-  default = ["iam.googleapis.com", "cloudresourcemanage.googleapis.com", "compute.googleapis.com", "redis.googleapis.com"]
+  default = ["iam.googleapis.com", "cloudresourcemanager.googleapis.com", "compute.googleapis.com", "redis.googleapis.com"]
 }
 
 variable "dev_main_branch" {
