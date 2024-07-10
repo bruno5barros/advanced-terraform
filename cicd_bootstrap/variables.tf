@@ -8,6 +8,11 @@ variable "tf_cloud_organization" {
   type = string
 }
 
+variable "tf_cloud_project_id" {
+  description = ""
+  type = string
+}
+
 variable "github_oauth_token" {
   description = ""
   type = string
