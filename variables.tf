@@ -27,7 +27,7 @@ variable "subnet_name" {
   default     = "subnet1"
 }
 
-variable "subnet-cidr" {
+variable "subnet_cidr" {
   description = "Ip cidr block."
   type        = string
   default     = "10.127.0.0/20"
